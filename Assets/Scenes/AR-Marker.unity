@@ -915,6 +915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button_Info
       objectReference: {fileID: 0}
+    - target: {fileID: 2530977214245276068, guid: 9a6723e94d831cc4685f9a107a7c0d84,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3006767667419765642, guid: 9a6723e94d831cc4685f9a107a7c0d84,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1134,9 +1139,7 @@ PrefabInstance:
     - target: {fileID: 4739789203418775386, guid: 9a6723e94d831cc4685f9a107a7c0d84,
         type: 3}
       propertyPath: m_text
-      value: 'Left
-
-'
+      value: Left
       objectReference: {fileID: 0}
     - target: {fileID: 4739789203418775386, guid: 9a6723e94d831cc4685f9a107a7c0d84,
         type: 3}
