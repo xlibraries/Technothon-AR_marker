@@ -5,21 +5,26 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/mainMenu.unity
     guid: 03697c8b2de0dab4187b0216799910ed
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR-Marker.unity
     guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR-Plane_Detection.unity
     guid: 46f5508937f2c4f46bbd552b82de36b6
+  - enabled: 1
+    path: Assets/Scenes/Ikea.unity
+    guid: 33406839b08abd74998588f23abbd03d
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069,
+      type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 510be013b3b7d434eb0e8aa25a201d89,
       type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: c2f7b8d7c0bff4d10874cbcf3f24af78,
       type: 2}
