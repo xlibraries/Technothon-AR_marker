@@ -18,7 +18,7 @@ public class InputManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -42,7 +42,7 @@ public class InputManager : MonoBehaviour
     private bool IsPointerOverUI(Touch touch)
     {
         PointerEventData eventData = new PointerEventData(EventSystem.current);
-        eventData.position= new Vector2(touch.position.x, touch.position.y);
+        eventData.position = new Vector2(touch.position.x, touch.position.y);
         List<RaycastResult> results = new List<RaycastResult>();
         EventSystem.current.RaycastAll(eventData, results);
         return results.Count > 0;
@@ -52,7 +52,7 @@ public class InputManager : MonoBehaviour
     {
         Vector3 originn = arCamera.ViewportToScreenPoint(new Vector3(0.5f, 0.5f, 0.5f));
         Ray ray = arCamera.ScreenPointToRay(originn);
-        
+
         if (arRaycastManager.Raycast(ray, _hist))
         {
             pose = _hist[0].pose;
