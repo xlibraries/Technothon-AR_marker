@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -9052944299579226552}
   - component: {fileID: -1518478999118344121}
   - component: {fileID: -7488109899789337447}
+  - component: {fileID: -8726947780325445365}
   m_Layer: 0
   m_Name: Rack
   m_TagString: Untagged
@@ -293,6 +294,20 @@ MonoBehaviour:
   m_ARSessionOrigin: {fileID: 0}
   m_RotationRateDegreesDrag: 100
   m_RotationRateDegreesTwist: 2.5
+--- !u!64 &-8726947780325445365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303916968176809715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &8523991523542754454
 GameObject:
   m_ObjectHideFlags: 0

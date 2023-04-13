@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6912393182942161669}
   - component: {fileID: 5769010432357746767}
   - component: {fileID: 6943160986998294317}
+  - component: {fileID: -4749764920530288293}
   m_Layer: 0
   m_Name: Bed
   m_TagString: Untagged
@@ -293,6 +294,20 @@ MonoBehaviour:
   m_ARSessionOrigin: {fileID: 0}
   m_RotationRateDegreesDrag: 100
   m_RotationRateDegreesTwist: 2.5
+--- !u!64 &-4749764920530288293
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3520689955614773824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &5236636380796554714
 GameObject:
   m_ObjectHideFlags: 0
